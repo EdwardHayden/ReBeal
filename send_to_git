@@ -1,0 +1,6 @@
+spawn git push origin main
+expect "Username for 'https://github.com': "
+send "EdwardHayden\r"
+expect "Password for 'https://EdwardHayden@github.com': "
+send "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\r"
+interact
